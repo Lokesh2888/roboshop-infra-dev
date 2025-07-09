@@ -19,3 +19,6 @@ variable "sg_tags" {
   default = {} #if you give this it will work as optional
 }
 
+variable "az_names" {
+  type = list(string)
+}
