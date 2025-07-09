@@ -7,4 +7,5 @@ module "frontend" {
   sg_name = var.frontend_sg_name
   sg_description = var.frontend_sg_description
   vpc_id = local.vpc_id
+  sg_tags = var.sg_tags
 }
