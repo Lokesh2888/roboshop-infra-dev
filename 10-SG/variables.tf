@@ -18,3 +18,4 @@ variable "sg_tags" {
   type = map(string)
   default = {} #if you give this it will work as optional
 }
+

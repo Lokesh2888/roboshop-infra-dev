@@ -1,5 +1,6 @@
 module "frontend" {
-  source = "../../terraform-aws-sg"
+  #source = "../../terraform-aws-sg"
+  source = "git::https://github.com/Lokesh2888/terraform-aws-sg.git?ref=main"
   project = var.project
   environment = var.environment
 
